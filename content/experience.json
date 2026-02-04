@@ -1,0 +1,98 @@
+[
+  {
+    "id": "consultant-big",
+    "title": "Consultant",
+    "company": "Business Intelligence Group (UIUC)",
+    "location": "Champaign, IL",
+    "dates": "Sep 2025 - Present",
+    "type": "Current",
+    "description": "Building centralized payer-rules knowledge base and proposing chatbot/alerts solutions with Excel/Power BI impact models.",
+    "achievements": [
+      "Developed centralized knowledge base for payer rules and regulations",
+      "Proposed chatbot and alert systems for improved operational efficiency",
+      "Created Excel and Power BI impact models for stakeholder decision-making",
+      "Collaborated with cross-functional teams to streamline business processes"
+    ],
+    "tools": ["Excel", "Power BI", "SQL", "Process Analysis", "Stakeholder Management"]
+  },
+  {
+    "id": "is400-support",
+    "title": "IS 400 Course Support",
+    "company": "iSchool @ Illinois",
+    "location": "Champaign, IL",
+    "dates": "Sep 2025 - Present",
+    "type": "Current",
+    "description": "Providing comprehensive support and coordination for IS 400 course operations.",
+    "achievements": [
+      "Coordinated course logistics and student support activities",
+      "Assisted with curriculum development and implementation",
+      "Provided technical support for course-related tools and platforms",
+      "Facilitated communication between faculty and students"
+    ],
+    "tools": ["Course Management", "Student Support", "Coordination", "Communication"]
+  },
+  {
+    "id": "graduate-research",
+    "title": "Graduate Research Student",
+    "company": "Illinois Computes/NCSA",
+    "location": "Champaign, IL",
+    "dates": "Apr 2025 - Aug 2025",
+    "type": "Research",
+    "description": "Benchmarked IT and workforce capabilities across 20+ peer institutions and developed Power BI dashboards with recommendations for senior stakeholders.",
+    "achievements": [
+      "Conducted comprehensive benchmarking analysis across 20+ peer institutions",
+      "Developed interactive Power BI dashboards for data visualization",
+      "Delivered strategic recommendations to senior leadership",
+      "Quantified IT and workforce performance metrics and trends"
+    ],
+    "tools": ["Power BI", "Benchmarking", "Data Analysis", "Stakeholder Reporting", "Research"]
+  },
+  {
+    "id": "research-volunteer",
+    "title": "Research Volunteer",
+    "company": "Avicenna Community Health Center",
+    "location": "Champaign, IL",
+    "dates": "Feb 2025 - Apr 2025",
+    "type": "Volunteer",
+    "description": "Analyzed attendance and compliance data while developing workforce dashboards for operational insights.",
+    "achievements": [
+      "Analyzed patient attendance and compliance patterns",
+      "Developed workforce analytics dashboards",
+      "Identified operational improvement opportunities",
+      "Presented findings to healthcare management team"
+    ],
+    "tools": ["Data Analysis", "Dashboard Development", "Healthcare Analytics", "Compliance Monitoring"]
+  },
+  {
+    "id": "ba-intern-bluetale",
+    "title": "Business Analyst Intern",
+    "company": "BlueTale Techno Solutions",
+    "location": "Remote",
+    "dates": "May 2024 - Aug 2024",
+    "type": "Internship",
+    "description": "Conducted outreach and requirements gathering while providing client-facing documentation and BI support.",
+    "achievements": [
+      "Led client outreach and requirements gathering initiatives",
+      "Created comprehensive client-facing documentation",
+      "Provided business intelligence support and analysis",
+      "Streamlined communication processes with external stakeholders"
+    ],
+    "tools": ["Requirements Analysis", "Client Relations", "Documentation", "Business Intelligence"]
+  },
+  {
+    "id": "ba-pm-intern-banao",
+    "title": "Business Analyst Intern & Project Management/Marketing Intern",
+    "company": "Banao Technologies",
+    "location": "Remote",
+    "dates": "Oct 2023 - May 2024",
+    "type": "Internship",
+    "description": "Conducted market and feasibility analysis while streamlining workflows using Trello/Asana and delivering stakeholder reports.",
+    "achievements": [
+      "Conducted comprehensive market and feasibility analysis",
+      "Streamlined project workflows using Trello and Asana",
+      "Developed stakeholder reporting processes",
+      "Supported marketing initiatives and project management activities"
+    ],
+    "tools": ["Market Analysis", "Project Management", "Trello", "Asana", "Stakeholder Reporting"]
+  }
+]

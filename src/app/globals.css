@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --background: #F6F8FA;
+  --foreground: #111418;
+  --card: #FFFFFF;
+  --card-foreground: #111418;
+  --popover: #FFFFFF;
+  --popover-foreground: #111418;
+  --primary: #12352F;
+  --primary-foreground: #F6F8FA;
+  --secondary: #8BA7B9;
+  --secondary-foreground: #2F3B45;
+  --muted: #8BA7B9;
+  --muted-foreground: #2F3B45;
+  --accent: #12352F;
+  --accent-foreground: #F6F8FA;
+  --destructive: #ef4444;
+  --destructive-foreground: #F6F8FA;
+  --border: #8BA7B9;
+  --input: #8BA7B9;
+  --ring: #12352F;
+  --chart-1: #12352F;
+  --chart-2: #8BA7B9;
+  --chart-3: #2F3B45;
+  --chart-4: #F6F8FA;
+  --chart-5: #111418;
+  --radius: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #2F3B45;
+    --foreground: #F6F8FA;
+    --card: #2F3B45;
+    --card-foreground: #F6F8FA;
+    --popover: #2F3B45;
+    --popover-foreground: #F6F8FA;
+    --primary: #8BA7B9;
+    --primary-foreground: #2F3B45;
+    --secondary: #12352F;
+    --secondary-foreground: #F6F8FA;
+    --muted: #12352F;
+    --muted-foreground: #8BA7B9;
+    --accent: #8BA7B9;
+    --accent-foreground: #2F3B45;
+    --destructive: #ef4444;
+    --destructive-foreground: #F6F8FA;
+    --border: #12352F;
+    --input: #12352F;
+    --ring: #8BA7B9;
+    --chart-1: #8BA7B9;
+    --chart-2: #12352F;
+    --chart-3: #F6F8FA;
+    --chart-4: #2F3B45;
+    --chart-5: #111418;
+  }
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--accent));
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

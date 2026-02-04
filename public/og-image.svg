@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F3B45"/>
+      <stop offset="1" stop-color="#12352F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="#F6F8FA" fill-opacity="0.04"/>
+  <text x="120" y="220" fill="#F6F8FA" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="52" font-weight="700">
+    Rithika Vennamaneni
+  </text>
+  <text x="120" y="300" fill="#8BA7B9" font-family="Inter, sans-serif" font-size="28" font-weight="500">
+    Founding Product Engineer (Systems &amp; UX)
+  </text>
+  <text x="120" y="380" fill="#F6F8FA" font-family="Inter, sans-serif" font-size="28" font-weight="400">
+    Product-minded engineer building inspectable AI systems and calm UX.
+  </text>
+</svg>

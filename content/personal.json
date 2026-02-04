@@ -1,0 +1,44 @@
+{
+  "name": "Rithika Vennamaneni",
+  "pronouns": "She/Her",
+  "location": "Champaign, Illinois",
+  "title": "Founding Product Engineer (Systems & UX)",
+  "tagline": "Product-minded engineer building inspectable AI systems and calm UX.",
+  "summary": "I design and ship human-in-the-loop AI tools with clear controls, fast feedback, and careful UX. I own the path from problem framing to production and iteration.",
+  "bio": "MS Information Management @ UIUC (GPA 3.95/4) with a systems + UX lens. I build inspectable AI workflows, multi-agent tools, and clean interfaces that help people make decisions with confidence. I care about accessibility, guardrails, and end-to-end ownership.",
+  "education": {
+    "current": {
+      "degree": "MS in Information Management",
+      "institution": "University of Illinois at Urbana-Champaign",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.95/4.0"
+    },
+    "undergraduate": {
+      "degree": "B.Tech in Computer Science",
+      "institution": "VBIT",
+      "dates": "Aug 2020 - May 2024"
+    }
+  },
+  "currentRoles": [
+    {
+      "title": "Consultant, Business Intelligence Group",
+      "organization": "UIUC",
+      "dates": "Sep 2025 - Present"
+    },
+    {
+      "title": "IS 400 Course Support",
+      "organization": "iSchool @ Illinois",
+      "dates": "Sep 2025 - Present"
+    }
+  ],
+  "achievements": [
+    "1st Place - E-Cell IIT Bombay i-Hack",
+    "Runner-Up - ENIGMA ML Contest"
+  ],
+  "contact": {
+    "email": "rithika@example.com",
+    "linkedin": "https://www.linkedin.com/in/vennamaneni-rithika-546a1b203",
+    "location": "Champaign, Illinois"
+  },
+  "availability": "Open to Founding Product Engineer (Systems & UX) roles"
+}

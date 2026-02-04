@@ -1,0 +1,239 @@
+[
+  {
+    "id": "ai-course-planning-agent",
+    "slug": "ai-course-planning-agent",
+    "title": "AI Course Planning Agent — 1st Place (Lovable Track, Keywords AI Hackathon)",
+    "when": "2025",
+    "summary": "An inspectable course-planning agent that turns degree rules into a usable plan with clear tradeoffs and manual control.",
+    "problem": "Students struggle to turn degree requirements into a realistic semester plan. Existing tools are rigid and hide tradeoffs, so planning feels risky and slow.",
+    "approach": "Designed a human-in-the-loop planner that explains its choices, surfaces conflicts early, and lets students edit constraints without breaking the plan.",
+    "tools": ["[add tech stack]"],
+    "impact": "Won 1st Place (Lovable Track, Keywords AI Hackathon). Improved planning clarity with inspectable rationale and overrides.",
+    "tags": ["Human-in-the-loop", "AI Systems", "UX", "Multi-Agent"],
+    "coverImage": "/images/projects/ai-course-planning-agent.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [],
+    "caseStudy": {
+      "problem": "Students need a plan that fits degree rules, prerequisites, and real-life constraints. Most planners hide reasoning, so users can’t tell why a course was chosen or how to fix conflicts.",
+      "whatIBuilt": [
+        "A multi-agent planner that assembles schedules from degree rules, prerequisites, and preferences.",
+        "A constraint editor for credits, time blocks, and must-take courses with instant validation.",
+        "An inspectable plan view that shows step-by-step rationale and alternatives."
+      ],
+      "uxDecisions": [
+        "Inspectable agent state and evidence for each scheduling decision.",
+        "Manual overrides for conflicts, credit load, and time blocks without breaking the plan.",
+        "Calm UI with low-noise layout, clear hierarchy, and progressive disclosure."
+      ],
+      "systemDesign": {
+        "nodes": ["Student inputs", "Rules + planner agent", "Schedule validator", "Inspectable UI + overrides", "Export plan"],
+        "note": "Reasoning and constraints stay visible throughout, so users can trust and adjust the plan."
+      },
+      "techStack": ["[add tech stack]"],
+      "outcomes": [
+        "1st Place — Lovable Track (Keywords AI Hackathon).",
+        "Reduced planning back-and-forth by making tradeoffs explicit.",
+        "[add metric]"
+      ]
+    }
+  },
+  {
+    "id": "multi-agent-research-assistant",
+    "slug": "multi-agent-research-assistant",
+    "title": "Multi-Agent Research Assistant for Explainable AI",
+    "when": "2025",
+    "summary": "A research assistant that gathers sources, checks claims, and produces an explainable brief with an evidence trail.",
+    "problem": "Explainable AI research is fragmented and hard to trust. Existing tools summarize without showing evidence, which slows decisions and increases rework.",
+    "approach": "Built a multi-agent workflow that retrieves sources, critiques drafts, and surfaces evidence so users can audit and refine the output.",
+    "tools": ["[add tech stack]"],
+    "impact": "Faster synthesis with an explicit evidence trail and clear points for human review.",
+    "tags": ["Multi-Agent", "Explainable AI", "Research", "UX"],
+    "coverImage": "/images/projects/multi-agent-research-assistant.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [],
+    "caseStudy": {
+      "problem": "Researchers and practitioners need quick, trustworthy overviews of XAI topics. Summaries without evidence slow adoption and make it hard to verify claims.",
+      "whatIBuilt": [
+        "A multi-agent pipeline for retrieval, synthesis, critique, and evidence checking.",
+        "A citation panel that links each claim to a source snippet and confidence.",
+        "A brief generator with exportable notes and a decision log."
+      ],
+      "uxDecisions": [
+        "Inspectable chain-of-thought summaries without hiding evidence.",
+        "Manual overrides to re-rank sources, edit claims, and re-run sections.",
+        "Calm UI with a focused reading pane and minimal chrome."
+      ],
+      "systemDesign": {
+        "nodes": ["Research prompt", "Retriever agent", "Synthesis + critique agents", "Evidence layer", "Explainable brief"],
+        "note": "Each stage writes to an evidence log so users can audit and edit before final export."
+      },
+      "techStack": ["[add tech stack]"],
+      "outcomes": [
+        "Clearer, auditable summaries with a visible evidence trail.",
+        "[add metric]"
+      ]
+    }
+  },
+  {
+    "id": "ai-incident-logging",
+    "slug": "ai-powered-incident-logging-tool",
+    "title": "AI-Powered Incident Logging Tool for Autism Support",
+    "when": "Aug 2025",
+    "summary": "Voice-to-text capture, auto-summaries, and smart tagging to streamline classroom incident documentation and improve teacher–parent communication.",
+    "problem": "Teachers in autism support classrooms spend excessive time on incident documentation, leading to inconsistent reporting and delayed parent communication.",
+    "approach": "Developed an AI-powered tool that captures voice input, automatically generates summaries, and applies smart tagging for efficient incident tracking and reporting.",
+    "tools": ["Python", "NLP", "Voice Processing", "Power BI", "Data Pipeline"],
+    "impact": "Faster, standardized incident logs with clearer trend reporting for interventions and improved teacher-parent communication.",
+    "tags": ["AI/ML", "Healthcare", "Process Automation", "Data Analysis"],
+    "coverImage": "/images/projects/ai-incident-logging.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [
+      "/images/projects/ai-incident-logging-1.jpg",
+      "/images/projects/ai-incident-logging-2.jpg"
+    ]
+  },
+  {
+    "id": "operational-risk-dashboard",
+    "slug": "operational-risk-kpi-dashboard",
+    "title": "Operational Risk KPI Dashboard – Data Analytics",
+    "when": "Jun 2025",
+    "summary": "Power BI dashboard visualizing 50+ synthetic risk incidents by department, root cause, severity; enables leadership risk reviews.",
+    "problem": "Leadership lacked visibility into operational risk patterns across departments, making it difficult to prioritize mitigation efforts.",
+    "approach": "Created a comprehensive Power BI dashboard that categorizes and visualizes risk incidents by department, root cause, and severity levels.",
+    "tools": ["Power BI", "DAX", "Excel", "Data Modeling", "Risk Analytics"],
+    "impact": "Clear visibility into risk hotspots enabling accelerated mitigation planning and data-driven risk management decisions.",
+    "tags": ["Power BI", "Risk Management", "Data Visualization", "KPI Dashboard"],
+    "coverImage": "/images/projects/risk-dashboard.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [
+      "/images/projects/risk-dashboard-1.jpg",
+      "/images/projects/risk-dashboard-2.jpg"
+    ]
+  },
+  {
+    "id": "predictive-sensor-framework",
+    "slug": "predictive-sensor-framework-zipcar",
+    "title": "Predictive Sensor Framework – Zipcar Quality Control",
+    "when": "Mar 2025 - May 2025",
+    "summary": "Team project designing a proactive sensor-driven predictive maintenance framework to reduce downtime and quality issues.",
+    "problem": "Zipcar vehicles experienced unexpected downtime and quality issues due to reactive maintenance approaches.",
+    "approach": "Designed a comprehensive predictive maintenance framework using sensor data and machine learning to anticipate maintenance needs.",
+    "tools": ["Python", "Feature Engineering", "BI Visualization", "Predictive Analytics", "Team Collaboration"],
+    "impact": "Proposed shift from reactive to proactive quality control with detailed roadmap and proof-of-concept implementation.",
+    "tags": ["Predictive Analytics", "IoT", "Quality Control", "Team Project"],
+    "coverImage": "/images/projects/zipcar-framework.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [
+      "/images/projects/zipcar-framework-1.jpg",
+      "/images/projects/zipcar-framework-2.jpg"
+    ]
+  },
+  {
+    "id": "celestial-analytics",
+    "slug": "celestial-analytics-meteorite-landings",
+    "title": "Celestial Analytics – Meteorite Landings",
+    "when": "Mar 2025 - May 2025",
+    "summary": "Cleaned meteorite datasets (Python/pandas) and built Power BI visuals for mass, region, composition trends; anomaly detection & clustering.",
+    "problem": "Meteorite landing data was messy and unstructured, making it difficult to identify patterns and anomalies in celestial events.",
+    "approach": "Cleaned and processed meteorite datasets using Python/pandas, then created Power BI visualizations to identify trends and anomalies.",
+    "tools": ["Python", "Pandas", "Seaborn", "Power BI", "Data Cleaning", "Anomaly Detection"],
+    "impact": "Faster data exploration with surfaced outliers and geographic patterns, enabling better understanding of meteorite distribution.",
+    "tags": ["Data Science", "Data Cleaning", "Visualization", "Anomaly Detection"],
+    "coverImage": "/images/projects/celestial-analytics.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [
+      "/images/projects/celestial-analytics-1.jpg",
+      "/images/projects/celestial-analytics-2.jpg"
+    ]
+  },
+  {
+    "id": "baseball-analytics",
+    "slug": "baseball-data-visualization-analytics",
+    "title": "Baseball Data Visualization & Analytics – Exploratory BI",
+    "when": "Mar 2025 - May 2025",
+    "summary": "Built interactive visualizations to explore player metrics and trends for non-technical stakeholders.",
+    "problem": "Baseball team management needed accessible insights from complex player performance data for decision-making.",
+    "approach": "Created interactive visualizations using Python and Power BI to make player metrics and trends accessible to non-technical stakeholders.",
+    "tools": ["Python", "Power BI", "Data Visualization", "Sports Analytics", "Stakeholder Communication"],
+    "impact": "Clearer insights for non-technical stakeholders enabling data-driven player management decisions.",
+    "tags": ["Sports Analytics", "Data Visualization", "Stakeholder Communication"],
+    "coverImage": "/images/projects/baseball-analytics.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [
+      "/images/projects/baseball-analytics-1.jpg",
+      "/images/projects/baseball-analytics-2.jpg"
+    ]
+  },
+  {
+    "id": "urban-planning-ai",
+    "slug": "ai-equitable-urban-planning",
+    "title": "Leveraging AI for Equitable Urban Planning in Informal Settlements",
+    "when": "Aug 2024 - Dec 2024",
+    "summary": "Research-style analytics to inform equitable planning scenarios for informal settlements using AI-driven insights.",
+    "problem": "Urban planning in informal settlements lacked data-driven approaches to ensure equitable development and resource allocation.",
+    "approach": "Conducted comprehensive research using AI and analytics to develop frameworks for equitable urban planning scenarios.",
+    "tools": ["Python", "BI Tools", "Literature Review", "Data Exploration", "Research"],
+    "impact": "Structured framework for city-scale 'what-if' questions enabling more equitable urban development planning.",
+    "tags": ["Urban Planning", "AI Research", "Equity", "Data Analysis"],
+    "coverImage": "/images/projects/urban-planning.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [
+      "/images/projects/urban-planning-1.jpg",
+      "/images/projects/urban-planning-2.jpg"
+    ]
+  },
+  {
+    "id": "hummcare-research",
+    "slug": "hummcare-market-research",
+    "title": "HummCare Market Research & Case Study",
+    "when": "Aug 2023 - Oct 2023",
+    "summary": "Market & competitive analysis; business model enhancements; stakeholder-ready deliverables.",
+    "problem": "HummCare needed comprehensive market analysis and competitive positioning to refine their business model.",
+    "approach": "Conducted thorough market and competitive analysis, then developed business model enhancements with stakeholder-ready deliverables.",
+    "tools": ["Market Research", "Competitive Analysis", "Business Modeling", "Stakeholder Communication"],
+    "impact": "Enhanced business model with clear competitive positioning and stakeholder-ready strategic recommendations.",
+    "tags": ["Market Research", "Business Strategy", "Competitive Analysis"],
+    "coverImage": "/images/projects/hummcare-research.jpg",
+    "links": {
+      "repo": "#TODO add link",
+      "demo": "#TODO add link",
+      "report": "#TODO add link"
+    },
+    "gallery": [
+      "/images/projects/hummcare-research-1.jpg",
+      "/images/projects/hummcare-research-2.jpg"
+    ]
+  }
+]

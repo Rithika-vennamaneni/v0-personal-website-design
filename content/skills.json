@@ -1,0 +1,138 @@
+{
+  "categories": [
+    {
+      "name": "Analytics & BI",
+      "description": "Data analysis, visualization, and business intelligence tools",
+      "skills": [
+        {
+          "name": "Excel",
+          "level": "Advanced",
+          "details": "VLOOKUP, INDEX-MATCH, pivots, macros, advanced formulas"
+        },
+        {
+          "name": "Power BI",
+          "level": "Advanced",
+          "details": "Dashboard creation, DAX, data modeling, report automation"
+        },
+        {
+          "name": "Tableau",
+          "level": "Intermediate",
+          "details": "Data visualization, interactive dashboards, story creation"
+        },
+        {
+          "name": "Neo4j",
+          "level": "Intermediate",
+          "details": "Graph database queries, relationship analysis"
+        },
+        {
+          "name": "Altair",
+          "level": "Intermediate",
+          "details": "Statistical visualization, Python-based charts"
+        },
+        {
+          "name": "Streamlit",
+          "level": "Intermediate",
+          "details": "Web app development, data application deployment"
+        }
+      ]
+    },
+    {
+      "name": "Programming & Databases",
+      "description": "Programming languages and database management",
+      "skills": [
+        {
+          "name": "Python",
+          "level": "Advanced",
+          "details": "pandas, seaborn, NumPy, statsmodels, data analysis"
+        },
+        {
+          "name": "SQL",
+          "level": "Advanced",
+          "details": "Complex queries, optimization, data extraction"
+        },
+        {
+          "name": "R",
+          "level": "Intermediate",
+          "details": "Statistical analysis, data visualization"
+        },
+        {
+          "name": "SAS",
+          "level": "Basic",
+          "details": "Statistical analysis, data processing"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Intermediate",
+          "details": "Database design, query optimization"
+        }
+      ]
+    },
+    {
+      "name": "Process & Project Management",
+      "description": "Process improvement, project management, and workflow optimization",
+      "skills": [
+        {
+          "name": "Process Auditing",
+          "level": "Advanced",
+          "details": "Workflow analysis, efficiency improvement"
+        },
+        {
+          "name": "Benchmarking",
+          "level": "Advanced",
+          "details": "Performance comparison, KPI development"
+        },
+        {
+          "name": "Workflow Automation",
+          "level": "Intermediate",
+          "details": "Process streamlining, tool integration"
+        },
+        {
+          "name": "Reporting",
+          "level": "Advanced",
+          "details": "Stakeholder reports, executive summaries"
+        },
+        {
+          "name": "Agile",
+          "level": "Intermediate",
+          "details": "Scrum methodology, sprint planning"
+        },
+        {
+          "name": "JIRA",
+          "level": "Intermediate",
+          "details": "Project tracking, issue management"
+        },
+        {
+          "name": "Trello/Asana",
+          "level": "Advanced",
+          "details": "Task management, team collaboration"
+        }
+      ]
+    },
+    {
+      "name": "Platforms & Tools",
+      "description": "Enterprise platforms and development tools",
+      "skills": [
+        {
+          "name": "SAP",
+          "level": "Intermediate",
+          "details": "Enterprise resource planning, data extraction"
+        },
+        {
+          "name": "AWS",
+          "level": "Basic",
+          "details": "Cloud services, data storage"
+        },
+        {
+          "name": "Git",
+          "level": "Intermediate",
+          "details": "Version control, collaboration"
+        },
+        {
+          "name": "Jupyter",
+          "level": "Advanced",
+          "details": "Data analysis notebooks, interactive development"
+        }
+      ]
+    }
+  ]
+}
